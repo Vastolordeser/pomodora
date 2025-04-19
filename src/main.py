@@ -1,9 +1,9 @@
 import sys
 from pathlib import Path
 from PyQt6.QtWidgets import QApplication
-from presentation.timer_presenter import TimerPresenter
-from services.timer_service import TimerService
-from ui.main_window import MainWindow
+from app.presentation.timer_presenter import TimerPresenter
+from app.services.timer_service import TimerService
+from app.ui.main_window import MainWindow
 
 def main():
     # Добавляем путь к корню проекта в sys.path
